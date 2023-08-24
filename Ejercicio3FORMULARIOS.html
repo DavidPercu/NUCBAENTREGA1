@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset=""UTF-8" />
+        <meta http-equiv=”X-UA-Compatible” content=”ie=edge” />
+        <meta name= viewport content= width=device-width initial-scale=1.0 />
+        <Title>Formulario de Registro</Title>
+    </head>
+    <body>
+        <main>
+            <h1>Formulario de Registro</h1>
+        </main>
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input Type="text" id="nombre" />
+                </div>
+                <br>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input Type=text id="apellido" />
+                </div>
+                <br>
+                <div>
+                    <span>Modalidad de Cursada:  </span>
+                        <input Type="radio" id="ON-demand" name="modalidad">
+                        <label for="On-demand">On-demand</label>
+                        
+                        <input Type="radio" id="En vivo" name="modalidad">
+                        <label for="En vivo">En vivo</label>
+                </div>
+                <br>
+                <div>
+                    <label for="correo">Correo:</label>
+                    <input Type="email" id="correo" />
+                </div>
+                <br>
+                <div>
+                    <input Type="checkbox" id="Deseo">
+                    <label for="Deseo">Deseo recibir información sobre nuevos posteos en la plataforma Nucba.</label>
+                </div>                       
+                <div>
+                    <input Type="checkbox" id="declaro" required>
+                    <label for="declaro">Declaro que leí los términos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Enviar"/>
+                </div>
+            </form>
+    </body>
+</html>
